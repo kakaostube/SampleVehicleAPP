@@ -89,7 +89,7 @@ class SampleApp(VehicleApp):
 
         # Use the logger with the preferred log level (e.g. debug, info, error, etc)
         logger.debug(
-            "!!!!!! PubSub event for the Topic: %s -> is received with the data: %s",
+            "! PubSub event for the Topic: %s -> is received with the data: %s",
             GET_SPEED_REQUEST_TOPIC,
             data,
         )
